@@ -58,3 +58,5 @@ skills:
   - CDK
   - Terraform
   - Serverless
+  - PostgreSQL/MySQL
+  - OpenSearch
