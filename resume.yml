@@ -2,7 +2,7 @@ name: Sam Johnson
 email: scj0055@gmail.com
 phone: 419-344-0055
 address: Omaha, NE
-website: https://www.linkedin.com/in/sam-johnson-9ab97938/
+website: linkedin.com/in/sam-johnson-9ab97938/
 blurb: Experienced Software Engineer
 extended_blurb: >
   todo
@@ -11,21 +11,21 @@ experience:
     location: San Francisco, CA (remote)
     title: Senior Software Engineer
     dates: February 2022 - Present
-    description: I was the first engineer hired on staff shortly after the company was founded. Responsible for developing Honor's core Java APIs and databases and architecting various Serverless microservices related to media processing and AI content generation.
+    description: "I was the first engineer hired on staff shortly after the company was founded. Responsible for developing Honor's core Java APIs and databases and various Serverless microservices including, but not limited to: media processing, AI content generation, analytics, and user notifications."
   - company: divvyDOSE
     location: Chicago, IL
     title: Senior Software Engineer
     dates: October 2020 - February 2022
-    description: I was primarily responsible for the design and development of serverless microservices hosted within AWS' ecosystem. I was one of the principal leaders of developing a system that managed divvyDOSE's order/package workflow for an online, mail-order pharmacy fulfillment center.
+    description: I was primarily responsible for the design and development of AWS-native Serverless microservices written in Python. I was one of the principal developers a system that managed divvyDOSE's order/package workflow for an online, mail-order pharmacy fulfillment center.
   - company: Sprout Social
     location: Chicago, IL
     title: Software Engineer
     dates: December 2019 - September 2020
-    description: I contributed to the development the 'Smart Inbox' feature of Sprout's application, which primarily consisted of a collection of distributed Java applications that interacted with an ElasticSearch cluster and Sprout's main API service. I also contributed to documentation and proposals for new features.
+    description: I contributed to the development the 'Smart Inbox' feature of Sprout's application, which primarily consisted of a collection of distributed Java applications that interacted with an ElasticSearch cluster and Sprout's main APIs. I also contributed to documentation and proposals for new features.
   - company: Signal
     location: Chicago, IL
     title: Software Engineer
-    description: I've worked on multiple teams at Signal. Primarily focused on building and supporting Signal's backend systems. Responsible for building out new partner integrations and supporting services that help send data out of Signal's platform as well as a large-scale greenfield big-data system.
+    description: I worked on multiple teams at Signal. I primarily focused on building and supporting Signal's backend systems. Responsible for building out new partner integrations and supporting services that help send data out of Signal's platform as well as a large-scale greenfield big-data system that aggregated anonymized user traffic across the internet.
     dates: January 2016 - November 2019
   - company: SundaySky
     location: NYC
