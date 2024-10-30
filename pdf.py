@@ -1,6 +1,6 @@
 from fpdf import FPDF
 
-EXPERIENCE_PANEL = 2
+EXPERIENCE_PANEL = 4
 
 
 class ResumePDF(FPDF):
@@ -13,7 +13,7 @@ class ResumePDF(FPDF):
         self.set_font("Helvetica", "B", 9)
 
     def title_emphasis(self, style=""):
-        self.set_font("Helvetica", style, 12)
+        self.set_font("Helvetica", style, 11)
 
     def header_text(self, text):
         self.set_font("Helvetica", "B", 36)
@@ -55,7 +55,7 @@ class ResumePDF(FPDF):
         self.set_font("Helvetica", "", 9)
         self.set_y(31)
         self.cell(125, 9, resume["blurb"], align="L")
-        self.ln()
+        # self.ln()
 
     def add_experience(self, resume):
         self.section_header("Experience")
@@ -63,7 +63,7 @@ class ResumePDF(FPDF):
             self.three_part(
                 experience["company"], experience["location"], experience["title"]
             )
-            self.set_y(self.get_y() + 7)
+            self.set_y(self.get_y() + 6)
             self.lesser_text()
             self.text_cell(experience["dates"])
             self.multi_cell(125, 5, experience["description"])
@@ -74,9 +74,9 @@ class ResumePDF(FPDF):
             self.three_part(
                 education["school"], education["location"], education["degree"]
             )
-            self.set_y(self.get_y() + 7)
+            self.set_y(self.get_y() + 6)
             self.lesser_text()
-            self.text_cell(education["dates"])
+            # self.text_cell(education["dates"])
 
     def add_additional_experience(self, resume):
         additional_experience = resume["experience"][EXPERIENCE_PANEL:]
