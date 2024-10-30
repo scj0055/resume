@@ -76,7 +76,7 @@ class ResumePDF(FPDF):
             )
             self.set_y(self.get_y() + 6)
             self.lesser_text()
-            # self.text_cell(education["dates"])
+            self.text_cell(education["dates"])
 
     def add_additional_experience(self, resume):
         additional_experience = resume["experience"][EXPERIENCE_PANEL:]
