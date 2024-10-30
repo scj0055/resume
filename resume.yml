@@ -21,7 +21,7 @@ experience:
     location: Chicago, IL
     title: Software Engineer
     dates: December 2019 - September 2020
-    description: I contributed to the development the 'Smart Inbox' feature of Sprout's application, which primarily consisted of a collection of distributed Java applications that interacted with an ElasticSearch cluster and Sprout's main APIs. I also contributed to documentation and proposals for new features.
+    description: I contributed to the development the 'Smart Inbox' feature of Sprout's application, which primarily consisted of a collection of distributed Java applications that interacted with an ElasticSearch cluster and Sprout's main APIs.
   - company: Signal
     location: Chicago, IL
     title: Software Engineer
